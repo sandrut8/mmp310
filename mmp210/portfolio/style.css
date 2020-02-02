@@ -1,6 +1,12 @@
-body  {padding: 0; margin:0; background: #ab839f;}
 
-img {}
-
-#doggy{position:absolute; top:100;left:100px}
-
+body {background-image:linear-gradient(90deg, cornsilk, plum);
+margin:0 15%;
+font-family: Arial, Verdana, sans-serif;}
+h1 {
+text-align: center;
+font-family: serif;
+font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #57b1dc; margin-top: 30px;}
+h2 {
+color: #d1633c;
+font-size: 1em; }
+h3 {color:#d13c60;font-size: 1em;}
