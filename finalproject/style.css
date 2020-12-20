@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
+
+body {
+  background-image: url("https://www.newscaststudio.com/wp-content/gallery/who-wants-to-be-a-millionaire-2020/NCS_Who-Wants-To-Be-A-Millionaire-Broadcast-Studio_01.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+button {
+  all: inherit;
+  background: grey;
+  font-size: 1.5em;
+  color: white;
+  border: 2px solid black;
+  border-radius: 0.25em;
+  padding: 0.25em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blue;
+  color: black;
+}
+
+button:active {
+  border-color: grey;
+}
+
+button.disable {
+  display: none;
+}
+
+h1 {
+  color: grey;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+button#start {
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.answers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option {
+  font-size: 2em;
+
+  border: 8px solid grey;
+  border-radius: 0.5em;
+  background: grey;
+  color: white;
+ 
+  flex-basis: 200px;
+  height: 200px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: background-color 200ms ease-in;
+}
+
+.option:hover {
+  background-color: blue;
+}
+
+.option.correct-answer {
+  border-color: green;
+}
+
+.option.wrong-answer {
+  border-color: red;
+}
