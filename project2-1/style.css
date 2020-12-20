@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+body{
+background-color: pink;
+font-family:'Roboto Mono'; 
+}
+
+button {
+	all: inherit;
+	font-size: 1.25em;
+	border: 2px solid black;
+	border-radius: 0.25em;
+	padding: 0.25em;
+	background-color: white;
+}
+
+h1 {
+	color: darkblue;
+}
+
+p {
+	font-size: 1.25em ;
+	margin: 0;
+}
+#container {
+	max-width: 720px;
+	margin:0 auto;
+}
+
+#interface {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: darkblue;
+	color: black;
+}
+
+.button:active {
+	border-color: black;
+}
+
+button.disable {
+	border-color: none;
+}
+
+
+ button#start {
+ 	margin-left: auto;
+ 	margin-right: 1em;
+}
+
+.answers {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.option {
+	font-size: 2em;
+	border: 8px solid darkblue;
+	border-radius: 0.5em;
+	background: pink;
+	color: white;
+
+	flex-basis:200px;
+	height: 200px;
+
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5em;
+
+	cursor: pointer;
+
+	transition: background-color 200ms ease-in;
+}
+ .option:hover {
+ 	background-color: pink;
+ }
+
+ .option.correct-answer {
+ 	border-color: green;
+ }
+
+ .option.wrong-answer {
+ 	border-color: red;
+ }
