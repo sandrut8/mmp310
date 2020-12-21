@@ -1,4 +1,4 @@
-class platformscene {
+class PlatformScene {
 	constructor(bgColor, minObstacles, maxObstacles){
 		this.bgColor = bgColor;
 		this.minObstacles = minObstacles;
