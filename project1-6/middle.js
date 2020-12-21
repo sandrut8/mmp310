@@ -1,4 +1,4 @@
-class middle extends mapscene{
+class Middle extends MapScene{
 	constructor(){
 		super();
 
