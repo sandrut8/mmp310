@@ -1,4 +1,4 @@
-class end extends mapscene {
+class End extends MapScene {
 	constructor(){
 		super();
 
