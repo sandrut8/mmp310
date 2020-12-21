@@ -1,4 +1,4 @@
-class mapscene {
+class MapScene {
 	constructor(){
 			this.background = [];
 			this.foreground = [];
