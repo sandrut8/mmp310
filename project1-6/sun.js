@@ -1,4 +1,4 @@
-class sun extends GameObject {
+class Sun extends GameObject {
 	constructor(x, y) {
 			super(sunImage, x, y);
 			 
